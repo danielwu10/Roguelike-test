@@ -1,0 +1,2171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2019-01-31T23:03:31.530+11:00
+  initializedAtString: 2019-01-31T23:03:31.530+11:00
+  log:
+  - commitID: 2ca4ddc0e02561e1359a43628fa8c362be17b45c
+    mergeA: 
+    mergeB: 
+    authorName: Daniel
+    authorEmail: d.wu@student.unsw.edu.au
+    commitEmail: d.wu@student.unsw.edu.au
+    commitName: Daniel
+    summary: Game
+    description: "Game\r\n\r\ncommit pls"
+    timeString: 2019-01-31T21:05:40.000+11:00
+    commitTimeString: 2019-01-31T21:05:40.000+11:00
+    changes:
+    - path: Assets\Animations.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations.meta
+      projectPath: Assets\Animations.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations.meta
+      projectPath: Assets\Animations\Animations.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\BatAttackDown.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\BatAttackDown.anim
+      projectPath: Assets\Animations\Animations\BatAttackDown.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\BatAttackDown.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\BatAttackDown.anim.meta
+      projectPath: Assets\Animations\Animations\BatAttackDown.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\BatAttackLeft.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\BatAttackLeft.anim
+      projectPath: Assets\Animations\Animations\BatAttackLeft.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\BatAttackLeft.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\BatAttackLeft.anim.meta
+      projectPath: Assets\Animations\Animations\BatAttackLeft.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\BatAttackRight.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\BatAttackRight.anim
+      projectPath: Assets\Animations\Animations\BatAttackRight.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\BatAttackRight.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\BatAttackRight.anim.meta
+      projectPath: Assets\Animations\Animations\BatAttackRight.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\BatAttackUp.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\BatAttackUp.anim
+      projectPath: Assets\Animations\Animations\BatAttackUp.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\BatAttackUp.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\BatAttackUp.anim.meta
+      projectPath: Assets\Animations\Animations\BatAttackUp.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\HitLeft.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\HitLeft.anim
+      projectPath: Assets\Animations\Animations\HitLeft.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\HitLeft.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\HitLeft.anim.meta
+      projectPath: Assets\Animations\Animations\HitLeft.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\HitUp.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\HitUp.anim
+      projectPath: Assets\Animations\Animations\HitUp.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\HitUp.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\HitUp.anim.meta
+      projectPath: Assets\Animations\Animations\HitUp.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\LeftIdle.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\LeftIdle.anim
+      projectPath: Assets\Animations\Animations\LeftIdle.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\LeftIdle.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\LeftIdle.anim.meta
+      projectPath: Assets\Animations\Animations\LeftIdle.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerChop.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerChop.anim
+      projectPath: Assets\Animations\Animations\PlayerChop.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerChop.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerChop.anim.meta
+      projectPath: Assets\Animations\Animations\PlayerChop.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerDeath.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerDeath.anim
+      projectPath: Assets\Animations\Animations\PlayerDeath.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerDeath.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerDeath.anim.meta
+      projectPath: Assets\Animations\Animations\PlayerDeath.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerDown.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerDown.anim
+      projectPath: Assets\Animations\Animations\PlayerDown.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerDown.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerDown.anim.meta
+      projectPath: Assets\Animations\Animations\PlayerDown.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerHit.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerHit.anim
+      projectPath: Assets\Animations\Animations\PlayerHit.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerHit.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerHit.anim.meta
+      projectPath: Assets\Animations\Animations\PlayerHit.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerHitDown.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerHitDown.anim
+      projectPath: Assets\Animations\Animations\PlayerHitDown.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerHitDown.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerHitDown.anim.meta
+      projectPath: Assets\Animations\Animations\PlayerHitDown.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerIdle.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerIdle.anim
+      projectPath: Assets\Animations\Animations\PlayerIdle.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerIdle.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerIdle.anim.meta
+      projectPath: Assets\Animations\Animations\PlayerIdle.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerLeft.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerLeft.anim
+      projectPath: Assets\Animations\Animations\PlayerLeft.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerLeft.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerLeft.anim.meta
+      projectPath: Assets\Animations\Animations\PlayerLeft.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerRight.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerRight.anim
+      projectPath: Assets\Animations\Animations\PlayerRight.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerRight.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerRight.anim.meta
+      projectPath: Assets\Animations\Animations\PlayerRight.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerUp.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerUp.anim
+      projectPath: Assets\Animations\Animations\PlayerUp.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\PlayerUp.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\PlayerUp.anim.meta
+      projectPath: Assets\Animations\Animations\PlayerUp.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\RightHit.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\RightHit.anim
+      projectPath: Assets\Animations\Animations\RightHit.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\RightHit.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\RightHit.anim.meta
+      projectPath: Assets\Animations\Animations\RightHit.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\RightIdle.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\RightIdle.anim
+      projectPath: Assets\Animations\Animations\RightIdle.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\RightIdle.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\RightIdle.anim.meta
+      projectPath: Assets\Animations\Animations\RightIdle.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\ShootDown.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\ShootDown.anim
+      projectPath: Assets\Animations\Animations\ShootDown.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\ShootDown.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\ShootDown.anim.meta
+      projectPath: Assets\Animations\Animations\ShootDown.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\ShootLeft.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\ShootLeft.anim
+      projectPath: Assets\Animations\Animations\ShootLeft.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\ShootLeft.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\ShootLeft.anim.meta
+      projectPath: Assets\Animations\Animations\ShootLeft.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\ShootRight.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\ShootRight.anim
+      projectPath: Assets\Animations\Animations\ShootRight.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\ShootRight.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\ShootRight.anim.meta
+      projectPath: Assets\Animations\Animations\ShootRight.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\ShootUp.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\ShootUp.anim
+      projectPath: Assets\Animations\Animations\ShootUp.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\ShootUp.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\ShootUp.anim.meta
+      projectPath: Assets\Animations\Animations\ShootUp.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\UpIdle.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\UpIdle.anim
+      projectPath: Assets\Animations\Animations\UpIdle.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\UpIdle.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\UpIdle.anim.meta
+      projectPath: Assets\Animations\Animations\UpIdle.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\batDeath.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\batDeath.anim
+      projectPath: Assets\Animations\Animations\batDeath.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\batDeath.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\batDeath.anim.meta
+      projectPath: Assets\Animations\Animations\batDeath.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\batHurt.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\batHurt.anim
+      projectPath: Assets\Animations\Animations\batHurt.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\batHurt.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\batHurt.anim.meta
+      projectPath: Assets\Animations\Animations\batHurt.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\batIdle.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\batIdle.anim
+      projectPath: Assets\Animations\Animations\batIdle.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\batIdle.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\batIdle.anim.meta
+      projectPath: Assets\Animations\Animations\batIdle.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\playerIdleOG.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\playerIdleOG.anim
+      projectPath: Assets\Animations\Animations\playerIdleOG.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\playerIdleOG.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\playerIdleOG.anim.meta
+      projectPath: Assets\Animations\Animations\playerIdleOG.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\playerwalk.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\playerwalk.anim
+      projectPath: Assets\Animations\Animations\playerwalk.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\playerwalk.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\playerwalk.anim.meta
+      projectPath: Assets\Animations\Animations\playerwalk.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\rockdestroy.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\rockdestroy.anim
+      projectPath: Assets\Animations\Animations\rockdestroy.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\rockdestroy.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\rockdestroy.anim.meta
+      projectPath: Assets\Animations\Animations\rockdestroy.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeDeath.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeDeath.anim
+      projectPath: Assets\Animations\Animations\slimeDeath.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeDeath.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeDeath.anim.meta
+      projectPath: Assets\Animations\Animations\slimeDeath.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeDown.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeDown.anim
+      projectPath: Assets\Animations\Animations\slimeDown.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeDown.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeDown.anim.meta
+      projectPath: Assets\Animations\Animations\slimeDown.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeHurt.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeHurt.anim
+      projectPath: Assets\Animations\Animations\slimeHurt.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeHurt.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeHurt.anim.meta
+      projectPath: Assets\Animations\Animations\slimeHurt.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeIdle.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeIdle.anim
+      projectPath: Assets\Animations\Animations\slimeIdle.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeIdle.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeIdle.anim.meta
+      projectPath: Assets\Animations\Animations\slimeIdle.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeLeft.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeLeft.anim
+      projectPath: Assets\Animations\Animations\slimeLeft.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeLeft.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeLeft.anim.meta
+      projectPath: Assets\Animations\Animations\slimeLeft.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeRight.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeRight.anim
+      projectPath: Assets\Animations\Animations\slimeRight.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeRight.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeRight.anim.meta
+      projectPath: Assets\Animations\Animations\slimeRight.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeUp.anim
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeUp.anim
+      projectPath: Assets\Animations\Animations\slimeUp.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Animations\slimeUp.anim.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Animations\slimeUp.anim.meta
+      projectPath: Assets\Animations\Animations\slimeUp.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Controller.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Controller.meta
+      projectPath: Assets\Animations\Controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Controller\Enemy1.controller
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Controller\Enemy1.controller
+      projectPath: Assets\Animations\Controller\Enemy1.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Controller\Enemy1.controller.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Controller\Enemy1.controller.meta
+      projectPath: Assets\Animations\Controller\Enemy1.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Controller\Enemy2.overrideController
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Controller\Enemy2.overrideController
+      projectPath: Assets\Animations\Controller\Enemy2.overrideController
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Controller\Enemy2.overrideController.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Controller\Enemy2.overrideController.meta
+      projectPath: Assets\Animations\Controller\Enemy2.overrideController.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Controller\Player.controller
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Controller\Player.controller
+      projectPath: Assets\Animations\Controller\Player.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animations\Controller\Player.controller.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Animations\Controller\Player.controller.meta
+      projectPath: Assets\Animations\Controller\Player.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio.meta
+      projectPath: Assets\Audio.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\bathurt.ogg
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\bathurt.ogg
+      projectPath: Assets\Audio\bathurt.ogg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\bathurt.ogg.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\bathurt.ogg.meta
+      projectPath: Assets\Audio\bathurt.ogg.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\bullet.wav
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\bullet.wav
+      projectPath: Assets\Audio\bullet.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\bullet.wav.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\bullet.wav.meta
+      projectPath: Assets\Audio\bullet.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\cool3.wav
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\cool3.wav
+      projectPath: Assets\Audio\cool3.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\cool3.wav.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\cool3.wav.meta
+      projectPath: Assets\Audio\cool3.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\drink.wav
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\drink.wav
+      projectPath: Assets\Audio\drink.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\drink.wav.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\drink.wav.meta
+      projectPath: Assets\Audio\drink.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\eat.wav
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\eat.wav
+      projectPath: Assets\Audio\eat.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\eat.wav.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\eat.wav.meta
+      projectPath: Assets\Audio\eat.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\empty.wav
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\empty.wav
+      projectPath: Assets\Audio\empty.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\empty.wav.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\empty.wav.meta
+      projectPath: Assets\Audio\empty.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\hurt.wav
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\hurt.wav
+      projectPath: Assets\Audio\hurt.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\hurt.wav.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\hurt.wav.meta
+      projectPath: Assets\Audio\hurt.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\ladder.wav
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\ladder.wav
+      projectPath: Assets\Audio\ladder.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\ladder.wav.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\ladder.wav.meta
+      projectPath: Assets\Audio\ladder.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\pick1.wav
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\pick1.wav
+      projectPath: Assets\Audio\pick1.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\pick1.wav.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\pick1.wav.meta
+      projectPath: Assets\Audio\pick1.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\pick2.aiff
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\pick2.aiff
+      projectPath: Assets\Audio\pick2.aiff
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\pick2.aiff.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\pick2.aiff.meta
+      projectPath: Assets\Audio\pick2.aiff.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\pickup.wav
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\pickup.wav
+      projectPath: Assets\Audio\pickup.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\pickup.wav.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\pickup.wav.meta
+      projectPath: Assets\Audio\pickup.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\shoot.mp3
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\shoot.mp3
+      projectPath: Assets\Audio\shoot.mp3
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\shoot.mp3.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\shoot.mp3.meta
+      projectPath: Assets\Audio\shoot.mp3.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\slime.wav
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\slime.wav
+      projectPath: Assets\Audio\slime.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\slime.wav.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\slime.wav.meta
+      projectPath: Assets\Audio\slime.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\step1.wav
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\step1.wav
+      projectPath: Assets\Audio\step1.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\step1.wav.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\step1.wav.meta
+      projectPath: Assets\Audio\step1.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\step2.wav
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\step2.wav
+      projectPath: Assets\Audio\step2.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\step2.wav.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\step2.wav.meta
+      projectPath: Assets\Audio\step2.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\wallhit.wav
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\wallhit.wav
+      projectPath: Assets\Audio\wallhit.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\wallhit.wav.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Audio\wallhit.wav.meta
+      projectPath: Assets\Audio\wallhit.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Fonts.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Fonts.meta
+      projectPath: Assets\Fonts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Fonts\OFL.txt
+      fullPath: D:\UnityProjects\Roguelike\Assets\Fonts\OFL.txt
+      projectPath: Assets\Fonts\OFL.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Fonts\OFL.txt.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Fonts\OFL.txt.meta
+      projectPath: Assets\Fonts\OFL.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Fonts\PressStart2P-Regular.ttf
+      fullPath: D:\UnityProjects\Roguelike\Assets\Fonts\PressStart2P-Regular.ttf
+      projectPath: Assets\Fonts\PressStart2P-Regular.ttf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Fonts\PressStart2P-Regular.ttf.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Fonts\PressStart2P-Regular.ttf.meta
+      projectPath: Assets\Fonts\PressStart2P-Regular.ttf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab.meta
+      projectPath: Assets\Prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Ammo.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Ammo.prefab
+      projectPath: Assets\Prefab\Ammo.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Ammo.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Ammo.prefab.meta
+      projectPath: Assets\Prefab\Ammo.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Axe.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Axe.prefab
+      projectPath: Assets\Prefab\Axe.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Axe.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Axe.prefab.meta
+      projectPath: Assets\Prefab\Axe.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Blood.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Blood.prefab
+      projectPath: Assets\Prefab\Blood.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Blood.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Blood.prefab.meta
+      projectPath: Assets\Prefab\Blood.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Bullet.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Bullet.prefab
+      projectPath: Assets\Prefab\Bullet.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Bullet.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Bullet.prefab.meta
+      projectPath: Assets\Prefab\Bullet.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\BulletSplash.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\BulletSplash.prefab
+      projectPath: Assets\Prefab\BulletSplash.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\BulletSplash.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\BulletSplash.prefab.meta
+      projectPath: Assets\Prefab\BulletSplash.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Enemy1.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Enemy1.prefab
+      projectPath: Assets\Prefab\Enemy1.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Enemy1.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Enemy1.prefab.meta
+      projectPath: Assets\Prefab\Enemy1.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Enemy2.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Enemy2.prefab
+      projectPath: Assets\Prefab\Enemy2.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Enemy2.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Enemy2.prefab.meta
+      projectPath: Assets\Prefab\Enemy2.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Exit.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Exit.prefab
+      projectPath: Assets\Prefab\Exit.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Exit.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Exit.prefab.meta
+      projectPath: Assets\Prefab\Exit.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor1.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor1.prefab
+      projectPath: Assets\Prefab\Floor1.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor1.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor1.prefab.meta
+      projectPath: Assets\Prefab\Floor1.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor10.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor10.prefab
+      projectPath: Assets\Prefab\Floor10.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor10.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor10.prefab.meta
+      projectPath: Assets\Prefab\Floor10.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor2.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor2.prefab
+      projectPath: Assets\Prefab\Floor2.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor2.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor2.prefab.meta
+      projectPath: Assets\Prefab\Floor2.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor3.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor3.prefab
+      projectPath: Assets\Prefab\Floor3.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor3.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor3.prefab.meta
+      projectPath: Assets\Prefab\Floor3.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor4.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor4.prefab
+      projectPath: Assets\Prefab\Floor4.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor4.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor4.prefab.meta
+      projectPath: Assets\Prefab\Floor4.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor5.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor5.prefab
+      projectPath: Assets\Prefab\Floor5.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor5.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor5.prefab.meta
+      projectPath: Assets\Prefab\Floor5.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor6.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor6.prefab
+      projectPath: Assets\Prefab\Floor6.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor6.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor6.prefab.meta
+      projectPath: Assets\Prefab\Floor6.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor7.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor7.prefab
+      projectPath: Assets\Prefab\Floor7.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor7.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor7.prefab.meta
+      projectPath: Assets\Prefab\Floor7.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor8.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor8.prefab
+      projectPath: Assets\Prefab\Floor8.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor8.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor8.prefab.meta
+      projectPath: Assets\Prefab\Floor8.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor9.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor9.prefab
+      projectPath: Assets\Prefab\Floor9.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Floor9.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Floor9.prefab.meta
+      projectPath: Assets\Prefab\Floor9.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Food.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Food.prefab
+      projectPath: Assets\Prefab\Food.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Food.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Food.prefab.meta
+      projectPath: Assets\Prefab\Food.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\GameManager.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\GameManager.prefab
+      projectPath: Assets\Prefab\GameManager.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\GameManager.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\GameManager.prefab.meta
+      projectPath: Assets\Prefab\GameManager.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\OuterWall1.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\OuterWall1.prefab
+      projectPath: Assets\Prefab\OuterWall1.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\OuterWall1.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\OuterWall1.prefab.meta
+      projectPath: Assets\Prefab\OuterWall1.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\OuterWall2.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\OuterWall2.prefab
+      projectPath: Assets\Prefab\OuterWall2.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\OuterWall2.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\OuterWall2.prefab.meta
+      projectPath: Assets\Prefab\OuterWall2.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\OuterWall3.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\OuterWall3.prefab
+      projectPath: Assets\Prefab\OuterWall3.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\OuterWall3.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\OuterWall3.prefab.meta
+      projectPath: Assets\Prefab\OuterWall3.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\OuterWall4.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\OuterWall4.prefab
+      projectPath: Assets\Prefab\OuterWall4.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\OuterWall4.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\OuterWall4.prefab.meta
+      projectPath: Assets\Prefab\OuterWall4.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Player.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Player.prefab
+      projectPath: Assets\Prefab\Player.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Player.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Player.prefab.meta
+      projectPath: Assets\Prefab\Player.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Rubble.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Rubble.prefab
+      projectPath: Assets\Prefab\Rubble.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Rubble.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Rubble.prefab.meta
+      projectPath: Assets\Prefab\Rubble.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Slime.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Slime.prefab
+      projectPath: Assets\Prefab\Slime.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Slime.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Slime.prefab.meta
+      projectPath: Assets\Prefab\Slime.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Soda.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Soda.prefab
+      projectPath: Assets\Prefab\Soda.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Soda.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Soda.prefab.meta
+      projectPath: Assets\Prefab\Soda.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall1.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall1.prefab
+      projectPath: Assets\Prefab\Wall1.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall1.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall1.prefab.meta
+      projectPath: Assets\Prefab\Wall1.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall2.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall2.prefab
+      projectPath: Assets\Prefab\Wall2.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall2.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall2.prefab.meta
+      projectPath: Assets\Prefab\Wall2.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall3.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall3.prefab
+      projectPath: Assets\Prefab\Wall3.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall3.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall3.prefab.meta
+      projectPath: Assets\Prefab\Wall3.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall4.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall4.prefab
+      projectPath: Assets\Prefab\Wall4.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall4.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall4.prefab.meta
+      projectPath: Assets\Prefab\Wall4.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall5.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall5.prefab
+      projectPath: Assets\Prefab\Wall5.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall5.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall5.prefab.meta
+      projectPath: Assets\Prefab\Wall5.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall6.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall6.prefab
+      projectPath: Assets\Prefab\Wall6.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall6.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall6.prefab.meta
+      projectPath: Assets\Prefab\Wall6.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall7.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall7.prefab
+      projectPath: Assets\Prefab\Wall7.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall7.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall7.prefab.meta
+      projectPath: Assets\Prefab\Wall7.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall8.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall8.prefab
+      projectPath: Assets\Prefab\Wall8.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefab\Wall8.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Prefab\Wall8.prefab.meta
+      projectPath: Assets\Prefab\Wall8.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scene.unity
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scene.unity
+      projectPath: Assets\Scene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scene.unity.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scene.unity.meta
+      projectPath: Assets\Scene.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\AudioManager.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\AudioManager.cs
+      projectPath: Assets\Scripts\AudioManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\AudioManager.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\AudioManager.cs.meta
+      projectPath: Assets\Scripts\AudioManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\BoardManager.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\BoardManager.cs
+      projectPath: Assets\Scripts\BoardManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\BoardManager.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\BoardManager.cs.meta
+      projectPath: Assets\Scripts\BoardManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Bullet.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Bullet.cs
+      projectPath: Assets\Scripts\Bullet.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Bullet.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Bullet.cs.meta
+      projectPath: Assets\Scripts\Bullet.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Enemy.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Enemy.cs
+      projectPath: Assets\Scripts\Enemy.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Enemy.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Enemy.cs.meta
+      projectPath: Assets\Scripts\Enemy.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\GameManager.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\GameManager.cs
+      projectPath: Assets\Scripts\GameManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\GameManager.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\GameManager.cs.meta
+      projectPath: Assets\Scripts\GameManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Loader.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Loader.cs
+      projectPath: Assets\Scripts\Loader.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Loader.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Loader.cs.meta
+      projectPath: Assets\Scripts\Loader.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\MovingObject.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\MovingObject.cs
+      projectPath: Assets\Scripts\MovingObject.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\MovingObject.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\MovingObject.cs.meta
+      projectPath: Assets\Scripts\MovingObject.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Player.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Player.cs
+      projectPath: Assets\Scripts\Player.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Player.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Player.cs.meta
+      projectPath: Assets\Scripts\Player.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Selector.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Selector.cs
+      projectPath: Assets\Scripts\Selector.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Selector.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Selector.cs.meta
+      projectPath: Assets\Scripts\Selector.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Shoot.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Shoot.cs
+      projectPath: Assets\Scripts\Shoot.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Shoot.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Shoot.cs.meta
+      projectPath: Assets\Scripts\Shoot.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\StartGame.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\StartGame.cs
+      projectPath: Assets\Scripts\StartGame.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\StartGame.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\StartGame.cs.meta
+      projectPath: Assets\Scripts\StartGame.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Wall.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Wall.cs
+      projectPath: Assets\Scripts\Wall.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Wall.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Scripts\Wall.cs.meta
+      projectPath: Assets\Scripts\Wall.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites.meta
+      projectPath: Assets\Sprites.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\NewSprites.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\NewSprites.png
+      projectPath: Assets\Sprites\NewSprites.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\NewSprites.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\NewSprites.png.meta
+      projectPath: Assets\Sprites\NewSprites.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\apple.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\apple.png
+      projectPath: Assets\Sprites\apple.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\apple.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\apple.png.meta
+      projectPath: Assets\Sprites\apple.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\arrow.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\arrow.png
+      projectPath: Assets\Sprites\arrow.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\arrow.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\arrow.png.meta
+      projectPath: Assets\Sprites\arrow.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\bat.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\bat.png
+      projectPath: Assets\Sprites\bat.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\bat.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\bat.png.meta
+      projectPath: Assets\Sprites\bat.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\batattack.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\batattack.png
+      projectPath: Assets\Sprites\batattack.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\batattack.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\batattack.png.meta
+      projectPath: Assets\Sprites\batattack.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\bathurt.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\bathurt.png
+      projectPath: Assets\Sprites\bathurt.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\bathurt.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\bathurt.png.meta
+      projectPath: Assets\Sprites\bathurt.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\bullet.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\bullet.png
+      projectPath: Assets\Sprites\bullet.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\bullet.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\bullet.png.meta
+      projectPath: Assets\Sprites\bullet.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\bullethit.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\bullethit.png
+      projectPath: Assets\Sprites\bullethit.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\bullethit.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\bullethit.png.meta
+      projectPath: Assets\Sprites\bullethit.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\exit.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\exit.png
+      projectPath: Assets\Sprites\exit.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\exit.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\exit.png.meta
+      projectPath: Assets\Sprites\exit.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\floor.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\floor.png
+      projectPath: Assets\Sprites\floor.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\floor.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\floor.png.meta
+      projectPath: Assets\Sprites\floor.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\gunleft.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\gunleft.png
+      projectPath: Assets\Sprites\gunleft.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\gunleft.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\gunleft.png.meta
+      projectPath: Assets\Sprites\gunleft.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\player.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\player.png
+      projectPath: Assets\Sprites\player.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\player.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\player.png.meta
+      projectPath: Assets\Sprites\player.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\playerdeath.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\playerdeath.png
+      projectPath: Assets\Sprites\playerdeath.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\playerdeath.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\playerdeath.png.meta
+      projectPath: Assets\Sprites\playerdeath.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\rock.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\rock.png
+      projectPath: Assets\Sprites\rock.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\rock.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\rock.png.meta
+      projectPath: Assets\Sprites\rock.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\rock2.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\rock2.png
+      projectPath: Assets\Sprites\rock2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\rock2.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\rock2.png.meta
+      projectPath: Assets\Sprites\rock2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\rock3.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\rock3.png
+      projectPath: Assets\Sprites\rock3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\rock3.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\rock3.png.meta
+      projectPath: Assets\Sprites\rock3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\rocks.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\rocks.png
+      projectPath: Assets\Sprites\rocks.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\rocks.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\rocks.png.meta
+      projectPath: Assets\Sprites\rocks.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\shootup.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\shootup.png
+      projectPath: Assets\Sprites\shootup.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\shootup.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\shootup.png.meta
+      projectPath: Assets\Sprites\shootup.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\shot.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\shot.png
+      projectPath: Assets\Sprites\shot.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\shot.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\shot.png.meta
+      projectPath: Assets\Sprites\shot.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\slime.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\slime.png
+      projectPath: Assets\Sprites\slime.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\slime.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\slime.png.meta
+      projectPath: Assets\Sprites\slime.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\wall.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\wall.png
+      projectPath: Assets\Sprites\wall.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\wall.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\wall.png.meta
+      projectPath: Assets\Sprites\wall.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\walls.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\walls.png
+      projectPath: Assets\Sprites\walls.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\walls.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\walls.png.meta
+      projectPath: Assets\Sprites\walls.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\water.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\water.png
+      projectPath: Assets\Sprites\water.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\water.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\Sprites\water.png.meta
+      projectPath: Assets\Sprites\water.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo.meta
+      projectPath: Assets\TutorialInfo.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Fonts.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Fonts.meta
+      projectPath: Assets\TutorialInfo\Fonts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Fonts\LICENSE.txt
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Fonts\LICENSE.txt
+      projectPath: Assets\TutorialInfo\Fonts\LICENSE.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Fonts\LICENSE.txt.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Fonts\LICENSE.txt.meta
+      projectPath: Assets\TutorialInfo\Fonts\LICENSE.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Fonts\Roboto-Thin.ttf
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Fonts\Roboto-Thin.ttf
+      projectPath: Assets\TutorialInfo\Fonts\Roboto-Thin.ttf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Fonts\Roboto-Thin.ttf.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Fonts\Roboto-Thin.ttf.meta
+      projectPath: Assets\TutorialInfo\Fonts\Roboto-Thin.ttf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Fonts\RobotoCondensed-Bold.ttf
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Fonts\RobotoCondensed-Bold.ttf
+      projectPath: Assets\TutorialInfo\Fonts\RobotoCondensed-Bold.ttf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Fonts\RobotoCondensed-Bold.ttf.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Fonts\RobotoCondensed-Bold.ttf.meta
+      projectPath: Assets\TutorialInfo\Fonts\RobotoCondensed-Bold.ttf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Icons.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Icons.meta
+      projectPath: Assets\TutorialInfo\Icons.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Icons\2DRoguelike.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Icons\2DRoguelike.png
+      projectPath: Assets\TutorialInfo\Icons\2DRoguelike.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Icons\2DRoguelike.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Icons\2DRoguelike.png.meta
+      projectPath: Assets\TutorialInfo\Icons\2DRoguelike.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Icons\Help_Icon.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Icons\Help_Icon.png
+      projectPath: Assets\TutorialInfo\Icons\Help_Icon.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Icons\Help_Icon.png.meta
+      projectPath: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Layout.wlt
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Layout.wlt
+      projectPath: Assets\TutorialInfo\Layout.wlt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Layout.wlt.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Layout.wlt.meta
+      projectPath: Assets\TutorialInfo\Layout.wlt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Scripts.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Scripts.meta
+      projectPath: Assets\TutorialInfo\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Scripts\Editor.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Scripts\Editor.meta
+      projectPath: Assets\TutorialInfo\Scripts\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+      projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+      projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Scripts\Editor\TutorialInfoEditor.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Scripts\Editor\TutorialInfoEditor.cs
+      projectPath: Assets\TutorialInfo\Scripts\Editor\TutorialInfoEditor.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Scripts\Editor\TutorialInfoEditor.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Scripts\Editor\TutorialInfoEditor.cs.meta
+      projectPath: Assets\TutorialInfo\Scripts\Editor\TutorialInfoEditor.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Scripts\Readme.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Scripts\Readme.cs
+      projectPath: Assets\TutorialInfo\Scripts\Readme.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Scripts\Readme.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Scripts\Readme.cs.meta
+      projectPath: Assets\TutorialInfo\Scripts\Readme.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Scripts\TutorialInfo.cs
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Scripts\TutorialInfo.cs
+      projectPath: Assets\TutorialInfo\Scripts\TutorialInfo.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Scripts\TutorialInfo.cs.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Scripts\TutorialInfo.cs.meta
+      projectPath: Assets\TutorialInfo\Scripts\TutorialInfo.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Sprites.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Sprites.meta
+      projectPath: Assets\TutorialInfo\Sprites.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Sprites\unity-logo.png
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Sprites\unity-logo.png
+      projectPath: Assets\TutorialInfo\Sprites\unity-logo.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Sprites\unity-logo.png.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Sprites\unity-logo.png.meta
+      projectPath: Assets\TutorialInfo\Sprites\unity-logo.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Tutorial Info.prefab
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Tutorial Info.prefab
+      projectPath: Assets\TutorialInfo\Tutorial Info.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\TutorialInfo\Tutorial Info.prefab.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\TutorialInfo\Tutorial Info.prefab.meta
+      projectPath: Assets\TutorialInfo\Tutorial Info.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\menu.unity
+      fullPath: D:\UnityProjects\Roguelike\Assets\menu.unity
+      projectPath: Assets\menu.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\menu.unity.meta
+      fullPath: D:\UnityProjects\Roguelike\Assets\menu.unity.meta
+      projectPath: Assets\menu.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 31ab58b7d5e3a29ca4409143e51279b1dfb748cf
+    mergeA: 
+    mergeB: 
+    authorName: Daniel
+    authorEmail: d.wu@student.unsw.edu.au
+    commitEmail: d.wu@student.unsw.edu.au
+    commitName: Daniel
+    summary: Initial commit
+    description: Initial commit
+    timeString: 2019-01-31T20:59:41.000+11:00
+    commitTimeString: 2019-01-31T20:59:41.000+11:00
+    changes:
+    - path: .gitattributes
+      fullPath: D:\UnityProjects\Roguelike\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: .gitignore
+      fullPath: D:\UnityProjects\Roguelike\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\.gitignore
+      fullPath: D:\UnityProjects\Roguelike\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      status: 4
+      staged: 0
